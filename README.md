@@ -102,7 +102,7 @@ peo-fileshare/
 </style>
 ~~~
 
-ถ้าหากต้องการให้แสดงเฉพาะ Catagory ให้ใช้ index.php?cat_id=1
+ถ้าหากต้องการให้แสดงเฉพาะ Catagory ให้ใช้ index.php?cat=cat_1
 cat_id ให้ดูใน admin.php
 
 ### 🛠️ วิธีติดตั้งผ่าน WordPress (Gutenberg / Elementor)
