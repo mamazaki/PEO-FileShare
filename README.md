@@ -3,9 +3,9 @@
 ระบบดาวน์โหลดเอกสารและจัดเก็บสถิติการคลิก/ดาวน์โหลด แบบแยกหมวดหมู่และรองรับผู้ใช้งานหลายระดับ (Multi-User) พัฒนาขึ้นโดยเน้นความเบาหวิว (Lightweight) ไม่พึ่งพาฐานข้อมูล (Database-less) โดยจัดเก็บข้อมูลในรูปแบบ Flat File (PHP Array & JSON) พร้อมระบบความปลอดภัย File Locking รองรับการทำงานบน Shared Hosting ทั่วไปได้อย่างเสถียร
 
 ---
-* user และ password เปลี่ยนได้ใน .env
-** defualt admin: admin
-** default password: P@ssw0rd
+## user และ password เปลี่ยนได้ใน .env
+- defualt admin: admin
+-  default password: P@ssw0rd
 
 ---
 
