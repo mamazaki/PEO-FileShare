@@ -1,0 +1,14 @@
+# 1. ปิดการแสดงรายชื่อไฟล์ในโฟลเดอร์นี้โดยเด็ดขาด (Directory Browsing)
+Options -Indexes
+
+# 2. ป้องกันไม่ให้ใครมาแอบรันโค้ดแปลกปลอมในโฟลเดอร์อัปโหลด
+# (บล็อกการรันสคริปต์ .php, .php3, .phtml เผื่อมี User แอบเนียนอัปโหลดไฟล์เว็บเชลล์เข้ามาแฮกเครื่องค่ะ)
+<FilesMatch "\.(php|phtml|php3|php4|php5|phps|pl|py|jsp|asp|sh|cgi)$">
+    <IfModule authz_core_module>
+        Require all denied
+    </IfModule>
+    <IfModule !authz_core_module>
+        Order deny,allow
+        Deny from all
+    </IfModule>
+</FilesMatch>
