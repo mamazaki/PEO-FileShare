@@ -53,7 +53,7 @@ peo-fileshare/
 ~~~html
 <div style="width: 100%; overflow: hidden; margin: 15px 0;">
     <iframe 
-        src="https://www.loeipeo.go.th/data_files/index.php" 
+        src="https://www.yourdomain.com/data_files/index.php" 
         title="ระบบสถิติการดาวน์โหลดเอกสาร กลุ่มนโยบายและแผน"
         width="100%" 
         height="650px" 
@@ -70,7 +70,7 @@ peo-fileshare/
 ~~~html
 <div class="peo-iframe-fullscreen-wrapper">
     <iframe 
-        src="https://www.loeipeo.go.th/data_files/index.php" 
+        src="https://www.yourdomain.com/data_files/index.php" 
         class="peo-fullscreen-iframe"
         title="ระบบสถิติการดาวน์โหลดเอกสาร"
         loading="lazy"
