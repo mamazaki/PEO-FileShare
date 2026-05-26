@@ -102,6 +102,9 @@ peo-fileshare/
 </style>
 ~~~
 
+ถ้าหากต้องการให้แสดงเฉพาะ Catagory ให้ใช้ index.php?cat_id=1
+cat_id ให้ดูใน admin.php
+
 ### 🛠️ วิธีติดตั้งผ่าน WordPress (Gutenberg / Elementor)
 1. สร้างหน้าเพจใหม่ (Add New Page) บน WordPress
 2. หากใช้ **Gutenberg (Editor ปกติ)**: เพิ่มบล็อก **"Custom HTML"** แล้วนำโค้ดด้านบนไปวาง
