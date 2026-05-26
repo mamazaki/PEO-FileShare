@@ -4,9 +4,8 @@
 
 ---
 * user และ password เปลี่ยนได้ใน .env
-
-* ** defualt admin: admin
-* ** default password: P@ssw0rd
+** defualt admin: admin
+** default password: P@ssw0rd
 
 ---
 
