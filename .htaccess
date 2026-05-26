@@ -1,0 +1,21 @@
+# 1. บล็อกการเข้าถึงไฟล์สำคัญโดยเด็ดขาด 
+<FilesMatch "^\.env|download_stats\.json|categories\.json|config\.php">
+    <IfModule authz_core_module>
+        Require all denied
+    </IfModule>
+    <IfModule !authz_core_module>
+        Order deny,allow
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# 2. ปิดการแสดงรายชื่อไฟล์ในโฟลเดอร์
+Options -Indexes
+
+# 3. ตั้งค่าขนาดการอัปโหลดไฟล์ (64MB)
+<IfModule php_module>
+    php_value upload_max_filesize 64M
+    php_value post_max_size 64M
+    php_value max_execution_time 300
+    php_value max_input_time 300
+</IfModule>
